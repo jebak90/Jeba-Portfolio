@@ -16,6 +16,7 @@ const TopBar = (props) => {
         setShowMenu(!showMenu)
     }
 
+
     return(
         <div className="container topbar_container">
             <h2 className="header_text">Jeba's Portfolio</h2>
@@ -39,7 +40,7 @@ const TopBar = (props) => {
                 <ul className="menu">
                     {
                          menuList.map((menu,index)=>
-                            <li><a href={`#${menu.id}`}>{menu.menuName}</a></li>
+                            <li><a href={`#${menu.id}`} onClick={openCloseMenu}>{menu.menuName}</a></li>
                         )
                     }
                 </ul>
