@@ -17,7 +17,7 @@ const About = ()=>{
                 <div className="about__list">
                     <FaNodeJs className="about__list__icon"/>
                     <p className="about__content">
-                        Over 5+ years of IT experience which includes 3+ years of React JS and Full Stack Developer.
+                        Over 5.9 years of IT experience which includes 3+ years of React JS and Full Stack Developer.
                     </p>
                 </div>
 
