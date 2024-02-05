@@ -19,7 +19,7 @@ const ProjectsList = ()=>{
     return(
         <>
             <div className="container"><Title title={"projects"}/></div>
-            <div className="container projectList__container">
+            <div className="container projectList__container" id="projects">
                 
                 {
                     projectsList.map((project,index)=>

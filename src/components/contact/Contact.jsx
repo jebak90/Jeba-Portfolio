@@ -7,8 +7,8 @@ const Contact = ()=>{
     const [contactList, setContactList] = useState(
         [
             {icon:<FaMailBulk/>,contactData:"jpriskillal@gmail.com",type:"email"},
-            {icon:<FaLinkedinIn/>,contactData:"https://www.linkedin.com/in/jeba-priskillal-79916955/", type:"linkedin"},
-            {icon:<FaGithub/>,contactData:"jpriskillal@gmail.com",type:"github"},
+            {icon:<FaLinkedinIn/>,contactData:"linkedin.com/in/jeba-priskillal-79916955/", type:"linkedin"},
+            {icon:<FaGithub/>,contactData:"github.com/jebak90",type:"github"},
         ]
     )
 
@@ -30,8 +30,8 @@ const Contact = ()=>{
                                             {contact.icon}  
                                             {
                                                 contact.type == "email" ?
-                                                    <a className="contact__link" href="mailto:`${contact.contactData}`">{contact.contactData}</a>
-                                                :   <a className="contact__link" href={contact.contactData} target="_blank" >{contact.contactData}</a>
+                                                    <a className="contact__link" href={`mailto:https://${contact.contactData}`}>{contact.contactData}</a>
+                                                :   <a className="contact__link" href={`https://${contact.contactData}`} target="_blank" >{contact.contactData}</a>
                                             }
                                         </p>                      
                                     </>
