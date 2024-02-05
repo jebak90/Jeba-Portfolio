@@ -1,0 +1,40 @@
+.header__container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header__content{
+    padding: 10px 20px;
+
+}
+
+.header__name{
+    font-weight: 800;
+    font-size: 60px;
+    font-family: 'Roboto';
+}
+
+
+.cta {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.2rem;
+    margin-top: 2.5rem;
+  }
+
+
+  @media screen and (max-width: 1024px){
+    .header__container {
+        display: flex;
+        flex-direction: column;
+    }
+  
+  }
+  
+  @media screen and (max-width: 600px){
+    .header__container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+  }

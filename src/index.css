@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@100;300;700;900&display=swap');
+
+
+:root {
+  --color-bg: #1f1f38;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --color-green: #1bceed;
+  --color-blue: #476bf9;
+  --color-bg-blue:#19376d;
+  --color-bg-transparent:rgba(25, 55, 109, 0.5);
+
+  --transition: all 400ms ease;
+
+  /* --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%; */
+
+  --container-width-lg: 85%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  background-image: url(../src/assets/bg_highlights.png);
+  background-repeat: no-repeat;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.50rem 2rem;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+}
+
+.container{
+  width: var(--container-width-lg);
+  margin: 1rem auto;
+}
+
+
+@media screen and (max-width: 1024px){
+  .container {
+    width: var(--container-width-md);
+  }
+
+}
+
+@media screen and (max-width: 600px){
+  .container {
+    width: var(--container-width-sm);
+  }
+
+}
