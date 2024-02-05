@@ -16,7 +16,7 @@ const Header = ()=>{
                     and visually appealing websites. Proficient in React.js and passionate 
                     about solving coding puzzles. Proven track record of delivering top-notch projects. 
                     Let's turn your ideas into seamless digital experiences! Open for exciting 
-                    opportunities. 
+                    opportunities.
                 </p>  
 
                 <CTA/>
