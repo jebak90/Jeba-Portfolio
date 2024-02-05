@@ -12,7 +12,7 @@ const Header = ()=>{
             <div className="header__content">
                 <h1 className="header__name">Hi, I'm Jeba</h1>  
                 <p>
-                    Experienced Frontend Developer with 5+ years of crafting user-friendly 
+                    Experienced Frontend Developer with 5.9 years of crafting user-friendly 
                     and visually appealing websites. Proficient in React.js and passionate 
                     about solving coding puzzles. Proven track record of delivering top-notch projects. 
                     Let's turn your ideas into seamless digital experiences! Open for exciting 
