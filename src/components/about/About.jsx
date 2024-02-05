@@ -12,7 +12,7 @@ const About = ()=>{
         <div id="about" className="container container__bg">
             <div className="about__title"><Title title={"about"}/></div>
             <div className="about__container">
-             <img className="about__img" src={handcoding} width="300" height="300"></img> 
+             <img style={{borderRadius:"50%"}} className="about__img" src={handcoding} width="300" height="300"></img> 
              <div>
                 <div className="about__list">
                     <FaNodeJs className="about__list__icon"/>
